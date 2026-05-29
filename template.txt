@@ -1,0 +1,46 @@
+I want response in the json format then like this no any text no any suggestion just analysis the text and give me the ans 
+{
+    "type": "meeting",
+    "dateOfStart": "",
+    "duration": "", // default 30 minutes
+    "description": "",
+    "title": "", // by default Meeting
+    "platform": "", // by default google meet
+    "ownerOfMeet": "",
+    "attendees": {
+        "emails": []
+    }
+}
+so first in response find out the given message is regarding to the schedule a meeting or the any asked a message is schedule meeting then analysis message and give upper json response only 
+if the given message is question then give me in the format in answer give me answer in short for the question no any example or not any suggestion
+{
+    "type":"normal question",
+    "answer":""
+}  
+and do not give another info without this.
+
+
+
+
+
+
+
+
+"type": "meeting",
+    "dateOfStart": "",
+    "duration": "",
+    "description": "",
+    "title": "",
+    "platform": "",
+    "ownerOfMeet": "",
+    "attendees": {
+        "emails": []
+    }
+
+
+
+
+
+
+
+

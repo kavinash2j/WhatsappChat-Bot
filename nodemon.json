@@ -1,0 +1,11 @@
+{
+    "watch": [
+        "."
+    ],
+    "ignore": [
+        "auth_info/*",
+        "logs/*",
+        "node_modules/*",
+        "tokens"
+    ]
+}
